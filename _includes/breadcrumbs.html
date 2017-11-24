@@ -5,9 +5,9 @@
 {% assign previous="" %}
 <ol class="crumbs">
  {% if num_parts == "0" or num_parts == "-1" %}
-  <li><a href="{{ '/' | relative_url }}">Home</a> &nbsp; </li>
+  <li><a href="{{ '/' | relative_url }}">Etusivu</a> &nbsp; </li>
  {% else %}
-  <li><a href="{{ '/' | relative_url }}">Home</a> / </li>
+  <li><a href="{{ '/' | relative_url }}">Etusivu</a> / </li>
 
   {% for unused in page.content limit:num_parts %}
    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
