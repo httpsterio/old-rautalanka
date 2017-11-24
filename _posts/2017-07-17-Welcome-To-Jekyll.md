@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2017-10-11
 tags:
   - Jekyll
   - Help
