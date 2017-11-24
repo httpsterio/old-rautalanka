@@ -1,10 +1,7 @@
 <li class="item">
     <div class="item-head">
       <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
-      <span><!--{{ p.date | date_to_string }}-->
-        {% include translated-date.html date=post.date format="%-d %B %Y" lang="fi" %}
-        
-        
+      <span>{{ p.date | date_to_string }}
       </span>
       {% if site.enabled.tags == true %}
       &EmptyVerySmallSquare;
