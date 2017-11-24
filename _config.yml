@@ -47,7 +47,7 @@ disqus_shortname: your-forum-shortname
 socialBtnsColor: '#4845DF'
 
 bio:
-  enabled: true
+  enabled: false
   heading: Sami Singh
   subheading: 'Moi Kaikki'
   img_url: 'https://i.imgur.com/4jNK6wg.png'
