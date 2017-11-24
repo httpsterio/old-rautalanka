@@ -100,3 +100,5 @@ jekyll-archives:
     category: '/category/:name/'
 
 paginate: 10
+
+exclude: [node_modules, gulpfile.js]
