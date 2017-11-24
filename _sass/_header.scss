@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-right: 50px;
+    -webkit-overflow-scrolling: touch;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+  .active {
+    position: relative;
+    &:before {
+      content: '‥';
+      position: absolute;
+      bottom: -15px;
+      left: 45%;
+    }
+  }
+}
+
+.title {
+  width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  a {
+    text-decoration: none;
+    color: $textColor;
+  }
+}
+
+.nav {
+
+}
