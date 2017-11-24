@@ -1,5 +1,4 @@
 # REMEMBER TO GO THROUGH THIS FILE, PERSONALISING THE SETTINGS
-
 title: Rautalanka
 author:
   name: Sami Singh
@@ -101,4 +100,4 @@ jekyll-archives:
 
 paginate: 10
 
-exclude: [node_modules, gulpfile.js]
+exclude: [node_modules, gulpfile.js, rautalanka.gemspec, rautalanka-0.1.gem, package.json, doc, Gemfile.lock, Gemfile, changelog.md]
