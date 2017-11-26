@@ -34,34 +34,14 @@ enabled:
   # Enable RSS menu item
   rss: true
   seo: true
-  lang: fi_FI
 
-  logo: /assets/images/logo.svg
-  # Share buttons are only on desktop (user use the share menu on mobile).
-  social:
-    name: Sami Singh
-    links:
-      - http://httpster.io
-      - http://sumppi.co
-      - http://twitter.com/httpsterio
-    enabled: true
-    twitter: false
-    facebook: false
-    messenger: false
-    whatsapp: false
+  logo: assets/images/logo.svg
 
-# Get your disquas shortname from the disqus admin panel for your blog.
-disqus_shortname: your-forum-shortname
+# Get your disqus shortname from the disqus admin panel for your blog.
+## disqus_shortname: your-forum-shortname
 # Define the colors for social buttons.
-socialBtnsColor: '#4845DF'
-
-bio:
-  enabled: false
-  heading: Sami Singh
-  subheading: 'Moi Kaikki'
-  img_url: 'https://i.imgur.com/4jNK6wg.png'
-  body: >
-    Sami Singh on monikansallinen UX-kehittäjä ja saavutettavuuden puolestapuhuja. Hän asuu Jyväskylässä ja keittää niin maan perkeleesti kahvia.
+## socialBtnsColor: '#4845DF'
+lang: fi
 #Plugins
 plugins:
   - jekyll-feed
@@ -110,4 +90,4 @@ jekyll-archives:
 
 paginate: 10
 
-exclude: [node_modules, gulpfile.js, rautalanka.gemspec, rautalanka-0.1.gem, package.json, doc, Gemfile.lock, Gemfile, changelog.md]
+exclude: [node_modules, gulpfile.js, rautalanka.gemspec, rautalanka-0.1.gem, package.json, doc, Gemfile.lock, Gemfile, changelog.md, .gitignore, README.md]

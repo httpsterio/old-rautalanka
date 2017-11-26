@@ -4,8 +4,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ "assets/main.css" | relative_url }}">
   {% if site.favicon == true %}
-    <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/favicon-16x16.png">
+    <meta name="theme-color" content="#21272e">
   {% endif %}
   {% seo %}
 </head>
