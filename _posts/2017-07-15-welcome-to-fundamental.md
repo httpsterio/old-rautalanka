@@ -34,7 +34,7 @@ Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut ferm
 #### Syntax Highlighting
 `Let's write some code.`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 class Person {
   constructor(age, name) {
     this.age = age;

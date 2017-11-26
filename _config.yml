@@ -22,9 +22,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 description: Rautalanka on suomenkielinen blogi ja podcast suunnittelusta, suunnittelijoille.
 
 # Build settings
-markdown: kramdown
 theme: rautalanka
-
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
 
 # Enable theme compononents
 enabled:
@@ -51,7 +55,7 @@ plugins:
 
 # Compress Sass for production.
 sass:
-  style: compressed
+  style: uncompressed
 
 # Specifying front matter defaults
 defaults:
