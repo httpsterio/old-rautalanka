@@ -60,13 +60,32 @@ header {
 .title a:focus {
   outline:none;
   margin-left:0rem;
+
   padding-left:0rem;
   padding-right:0rem;
 
   .logo-stroke {
   stroke:none;
   fill-opacity: 1;
-  transition: 0.3s;
+  transition: 0.3s ease-out;
+
+    .logo-fill {
+      fill:$henna;
+    }
+  }
+}
+
+.title a:not(:focus) {
+  outline:none;
+  margin-left:0rem;
+
+  padding-left:0rem;
+  padding-right:0rem;
+
+  .logo-stroke {
+  stroke:2px solid $asphalt;
+  fill-opacity: 0;
+  transition: 0.3s ease-out;
 
     .logo-fill {
       fill:$henna;
@@ -84,7 +103,7 @@ header {
   .logo-stroke {
   stroke:none;
   fill-opacity: 1;
-  transition: 0.3s;
+  transition: 0.4s ease-out;
 
     .logo-fill {
       fill:$henna;
