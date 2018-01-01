@@ -30,7 +30,7 @@ strong {
 a,
 button {
     color: inherit;
-    transition: .2s;
+    transition: 0.3s;
 }
 
 button {
@@ -50,8 +50,11 @@ button {
 
 :focus {
     background:$slate;
+    border-radius: 0px;
     color:$henna;
-    padding:5px;
+    margin-left:-0rem;
+    padding-left:1rem;
+    padding-right:1rem;
     outline:none;
 }
 

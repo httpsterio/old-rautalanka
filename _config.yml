@@ -32,8 +32,8 @@ kramdown:
 
 # Enable theme compononents
 enabled:
-  breadcrumbs: true
-  tags: true
+  breadcrumbs: false
+  tags: false
   comments: false
   # Enable RSS menu item
   rss: true

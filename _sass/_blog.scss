@@ -15,12 +15,17 @@
 }
 
 .item {
+  background-color: $white;
   margin: 50px 0;
-  padding-bottom: 20px;
-  border-bottom: dotted 1px rgba($textColor, .2);
+  padding: 20px 50px 10px 50px;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 6px 16px 0px rgba(50, 50, 50, 0.47);
+  -moz-box-shadow:    0px 6px 16px 0px rgba(50, 50, 50, 0.47);
+  box-shadow:         0px 6px 16px 0px rgba(50, 50, 50, 0.47);
+
   @media screen and (max-width: $break) {
-    margin: 15px 0;
-    padding-bottom: 0;
+    margin: 50px 0;
+    padding-bottom:20px;
   }
 }
 
