@@ -19,6 +19,10 @@ header {
  
 }
 
+#rautalanka {
+  transition: 1s;
+}
+
 .title {
   width: 100%;
   text-align:center;
@@ -26,16 +30,18 @@ header {
     text-decoration: none;
     color: $textColor;
   }
-  .logo {
+  .logo-svg {
     margin-left:auto;
     margin-right:auto;
     padding-right:2rem;
     padding-left:2rem;
     display:block;
-    height:5rem;
+    height:6rem;
     max-width: calc(100% - 4rem);
+    margin-top:1rem;
   }
 }
+
 
 .nav-main {
   width: 100%;
@@ -50,4 +56,8 @@ header {
     display:block;
     max-width: calc(100% - 4rem);
   }
+}
+
+.svg path {
+    fill: white!important;
 }

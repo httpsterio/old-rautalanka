@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 50px;
   margin-bottom: 20px;
   font-family: $headerfont;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h1 {
@@ -51,7 +51,7 @@ p {
 a {
   color: $accent;
   &:hover {
-    opacity: .7;
+    color:$henna;
   }
 }
 
@@ -75,16 +75,15 @@ code {
 
 figure {
   overflow-x: auto;
-  background: $figurebg;
+  background: $asphalt;
   padding: 2rem;
-  color: white;
+  color: $henna;
   border-radius: 5px;
-  box-shadow: 5px 5px 2px rgba($black, 0.2);
   -webkit-overflow-scrolling: touch;
   code {
     display: block;
-    background: $slate;
-    color: $lightondark;
+    background: $asphalt;
+    color: $henna;
   }
 }
 

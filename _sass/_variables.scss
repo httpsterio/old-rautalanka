@@ -1,23 +1,31 @@
 $font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
-@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900');
+@font-face {
+    font-family: 'biotiflight';
+    src: url('/assets/fonts/degarism_studio_-_biotif-light-webfont.woff2') format('woff2');    font-weight: normal;
+    font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@font-face {
+    font-family: 'biotifbook';
+    src: url('/assets/fonts/degarism_studio_-_biotif-book-webfont.woff2') format('woff2');    font-weight: normal;
+    font-style: normal;
+}
 
-$bodyfont: 'Libre Baskerville', serif;
-$headerfont: 'Vollkorn', serif;
+@font-face {
+    font-family: 'biotifblack';
+    src: url('/assets/fonts/degarism_studio_-_biotif-black-webfont.woff2') format('woff2');    font-weight: normal;
+    font-style: normal;
+}
 
-//Palette
-
-$base: #21272e;
-$textColor: #f8f8f0;
-$accent: #e74c3c;
-$tertiary: #1abc9c;
+$bodyfont: 'biotifbook', serif;
+$headerfont: 'biotifblack', serif;
 
 // Colors
 $asphalt: #21272e;
 $black: #161416;
 $slate: #262D35;
+$darkgrey:#323232;
 $steel: #9da5b4;
 $white: #f8f8f0; 
 $lime: #9cd230;
@@ -25,6 +33,14 @@ $henna: #e74c3c;
 $spring: #53df83;
 $aqua: #1abc9c;
 $sky: #56b6c2;
+
+//Palette
+
+$base: $white;
+$textColor: $slate;
+$accent: $darkgrey;
+$tertiary: $henna;
+
 
 //Variables
 $blockquotebg: $henna;
