@@ -1,14 +1,14 @@
 <li class="item">
     <div class="item-head">
       <h2><a href="{{ p.url | relative_url }}" class="post-header">{{ p.title }}</a></h2>
-      <span>{{ p.date | date_to_string }}
+      <span>{{ p.date | date: "%d.%m.%Y" }}
       </span>
       {% if site.enabled.tags == true %}
-      &EmptyVerySmallSquare;
+       — 
           {% if p.tags  %}
             <span class="tags">
               {% for t in p.tags %}
-                <a href="{{site.baseurl}}/tag/{{t | downcase }}">{{t}}</a>{% if forloop.last == false %},{% endif %}
+                <a href="{{site.baseurl}}/tag/{{t | downcase }}">#{{t}}</a>
               {% endfor %}
             </span>
           {% endif %}
