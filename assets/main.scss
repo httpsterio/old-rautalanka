@@ -16,7 +16,7 @@
 @import 'blog';
 @import 'post';
 
-// accessibility for debugging
+//Debug file, enable in _config.yml
 {% if site.debugscss == true %}
 @import 'debug';
 {% endif %}

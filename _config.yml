@@ -55,7 +55,7 @@ plugins:
 
 # Compress Sass for production.
 sass:
-  style: uncompressed
+  style: compressed
 
 # Specifying front matter defaults
 defaults:
@@ -63,17 +63,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
       type: posts
-    values:
+      values:
       layout: "post"
       author: "Sami Singh"
       comments: false
 
-
+# Permalink formating, omits file extension
 permalink: pretty
-
-#######
-#PLUGIN CONFIG
-#######
 
 # Archives
 jekyll-archives:
@@ -92,8 +88,14 @@ jekyll-archives:
     tag: '/tag/:name/'
     category: '/category/:name/'
 
+# How many posts per page
 paginate: 10
-truncation: 40
-debugscss: true
 
+# How long post previews are before truncating
+truncation: 40
+
+# Adds borders around all elements and all focusable elements
+debugscss: false
+
+# Exclude files and folders from being built into _site
 exclude: [node_modules, gulpfile.js, rautalanka.gemspec, rautalanka-0.1.gem, package.json, doc, Gemfile.lock, Gemfile, changelog.md, .gitignore, README.md]
