@@ -94,5 +94,6 @@ jekyll-archives:
 
 paginate: 10
 truncation: 40
+debugscss: true
 
 exclude: [node_modules, gulpfile.js, rautalanka.gemspec, rautalanka-0.1.gem, package.json, doc, Gemfile.lock, Gemfile, changelog.md, .gitignore, README.md]

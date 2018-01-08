@@ -13,8 +13,13 @@
 @import 'tables';
 
 //Pages
-@import "blog";
+@import 'blog';
 @import 'post';
+
+// accessibility for debugging
+{% if site.debugscss == true %}
+@import 'debug';
+{% endif %}
 
 //Dynamic header media query
 

@@ -30,12 +30,12 @@
 .post-loop .item:hover {
     transition: 0.3s ease-in;
     box-shadow: 0px 10px 10px 0px rgba(50, 50, 50, 0.5);
-    border: 3px solid $slate;
+    border: 3px solid $henna;
 }
 .post-loop .item:not(:hover) {
     transition: 0.3s ease-out;
     box-shadow: 0px 6px 16px 0px rgba(50, 50, 50, 0.27);
-    border: 3px solid $white;    
+    border: 3px solid $white;
 }
 
 .pagination {
