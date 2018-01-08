@@ -34,6 +34,7 @@ kramdown:
 enabled:
   breadcrumbs: false
   tags: true
+  tag-cloud: false
   comments: false
   # Enable RSS menu item
   rss: true
@@ -63,7 +64,7 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
       type: posts
-      values:
+    values:
       layout: "post"
       author: "Sami Singh"
       comments: false
