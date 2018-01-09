@@ -3,14 +3,14 @@ layout: default
 permalink: /404.html
 ---
 
-<h1> Doesn't look like anything to me. </h1>
-<h3>404 Error: Page not found</h3>
+<aside aria-hidden="true" tab-index="-1" class="table-flip">(╯°□°)╯︵ ┻━┻</aside>
+<h1 class="h1-404">404 - Sivua ei löytynyt</h1>
+<p class="p-404">Hakemaasi sivua ei löytynyt, olikohan sitä edes olemassa?</p>
 
 <div class="_404">
-  {% include tag-cloud.html %}
   <div class="post-list">
-    <h3>Recent Posts</h3>
-  {% for p in site.posts limit: 3 %}
+    <h3>Viimeisimpiä postauksia</h3>
+  {% for p in site.posts limit: 5 %}
     <a href="{{p.url | relative_url }}">{{p.title}}</a>
   {% endfor %}
 </div>

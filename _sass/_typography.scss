@@ -56,12 +56,14 @@ a {
 }
 
 blockquote {
-  font-size: 2rem;
+  font-size: 1.8rem;
   opacity: .8;
-  padding: 5px 30px;
-  margin: 3rem 0;
+  padding: 5px 10px;
+  margin: 1rem 0;
   background: $henna;
-  color: $asphalt;
+  color: $black;
+  font-style:italic;
+  text-align: center;
   p {
     line-height: 1.5;
   }
@@ -114,4 +116,20 @@ ul {
 
 pre {
   margin: 0;
+}
+
+.table-flip{
+  text-align:center;
+  padding-top:5rem;
+  font-size:2.5rem;
+}
+
+.h1-404{
+  text-align:center;
+  font-size:3rem;
+}
+
+.p-404 {
+  text-align:center;
+  font-size: 2rem;
 }

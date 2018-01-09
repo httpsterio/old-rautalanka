@@ -27,9 +27,10 @@ Fundamental implements it's own breadcrumb solution. It is toggleable in the `co
 
 ##### Blockquote
 
-> "This is a blockquote, ain't it pretty."
+> "Tämä on vähän pidempi testi jotta tiedän miten tämä käyttäytyy monella rivillä ja kuinka hassulta se näyttää sitten."
 
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit
+tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 
 #### Syntax Highlighting
 `Let's write some code.`
@@ -82,10 +83,8 @@ Nullam quis [risus](https://www.google.co.uk) eget urna mollis ornare vel eu leo
 ### Images
 (Of [Bill Murray](http://fillmurray.com))
 
-![Cage](http://fillmurray.com/140/300)
+![Cage](http://fillmurray.com/195/300)
 ![Cage](http://fillmurray.com/500/300)
-![Cage](http://fillmurray.com/140/300)
-![Cage](http://fillmurray.com/395/350)
-![Cage](http://fillmurray.com/395/350)
-![Cage](http://fillmurray.com/800/600)
+![Cage](http://fillmurray.com/190/300)
+![Cage](http://fillmurray.com/900/600)
 *Bill Murray*
