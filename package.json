@@ -1,7 +1,7 @@
 {
   "name": "rautalanka",
   "version": "0.0.1",
-  "description": "[![Gem Version](https://badge.fury.io/rb/fundamental.svg)](https://badge.fury.io/rb/fundamental)",
+  "description": "Rautalanka Jekyll theme",
   "main": "index.js",
   "directories": {
     "doc": "doc"
