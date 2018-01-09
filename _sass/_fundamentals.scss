@@ -49,13 +49,10 @@ button {
 }
 
 :focus {
-    background:$slate;
+    
     border-radius: 0px;
     color:$henna;
-    margin-left:-0rem;
-    padding-left:1rem;
-    padding-right:1rem;
-    outline:none;
+    outline:dashed;
 }
 
 img {
