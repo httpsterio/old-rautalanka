@@ -1,6 +1,6 @@
 <li class="item">
     <div class="item-head">
-      <h2><a href="{{ p.url | relative_url }}" class="post-header">{{ p.title }}</a></h2>
+      <h1><a href="{{ p.url | relative_url }}" class="post-header">{{ p.title }}</a></h1>
       <span>{{ p.date | date: "%d.%m.%Y" }}
       </span>
       {% if site.enabled.tags == true %}
