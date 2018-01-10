@@ -32,7 +32,7 @@ kramdown:
 
 # Enable theme compononents
 enabled:
-  breadcrumbs: false
+  breadcrumbs: true
   tags: true
   tag-cloud: false
   comments: false
