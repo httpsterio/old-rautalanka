@@ -22,7 +22,9 @@
         {% endif %}
       {% endfor %}
       {% if site.enabled.rss == true %}
-      <li><a href="{{ "/feed.xml" | relative_url }}">RSS</a></li>
+      <li><a href="{{ "/feed.xml" | relative_url }}">
+          RSS
+      </a></li>
       {% endif %}
     </ul>
   </nav>
