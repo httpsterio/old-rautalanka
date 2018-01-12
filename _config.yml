@@ -37,7 +37,7 @@ enabled:
   tag-cloud: false
   comments: false
   # Enable RSS menu item
-  rss: true
+  rss: false
   seo: true
 
   logo: assets/images/logo.svg
