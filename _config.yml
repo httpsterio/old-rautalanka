@@ -90,7 +90,7 @@ jekyll-archives:
     category: '/category/:name/'
 
 # How many posts per page
-paginate: 10
+paginate: 5
 
 # How long post previews are before truncating
 truncation: 40
